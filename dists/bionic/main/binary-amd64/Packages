@@ -42,3 +42,25 @@ Description: Embedded Web Server / Embedded Networking Library
  commercial products - it even runs on the International Space station!
  Mongoose makes embedded network programming fast, robust, and easy.
 
+Package: libsimpleweb-dev
+Architecture: amd64
+Version: 1.0-1
+Priority: optional
+Section: devel
+Maintainer: Alfi Maulana <alfi.maulana.f@gmail.com>
+Installed-Size: 262
+Depends: libssl-dev (>= 1.1), libboost-filesystem (>= 1.65), libboost-thread-dev (>= 1.65)
+Filename: pool/main/libsimpleweb-dev/libsimpleweb-dev_1.0-1_amd64.deb
+Size: 43132
+MD5sum: 95cb226da7555863af8e7ed7e23e86ef
+SHA1: a2d3b7b1afa8bbaca7fda020fcbee86c81cbb314
+SHA256: 41dcbaa5f503d58700f79d3b3a89269f26a5d2b250f315276895cdb27f299583
+SHA512: 8056a61d415f9c97c5db136e619750b1ff73ac6b582297750d335f70cc79d50c15bc75ee336b3684964ccee637656d731fb9222d8eb8dd496abba00458d07939
+Homepage: https://github.com/threeal/Simple-Web
+Description: A simple HTTP, HTTPS, WS and WSS server and client library
+ A very simple, fast, multithreaded, platform independent HTTP, HTTPS,
+ WebSocket (WS) and WebSocket Secure (WSS) server and client library implemented
+ using C++11 and Asio (both Boost.Asio and standalone Asio can be used).
+ Created to be an easy way to make REST resources and WebSocket endpoints
+ available from C++ applications.
+
