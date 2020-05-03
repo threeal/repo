@@ -77,6 +77,7 @@ It also contains guides on how to build a Debian package, create repository, and
 ### Adding a New Package to the Repository
 
 - Put all new release of Debian packages inside their corresponding package in `pool` directory. _(example: put `libsomething_1.0-1_amd64.deb` inside `pool/main/libsomething`)_
+- Remove older version of the Debian package release, if there is any. _(example: with `libsomething_1.0-1_amd64.deb`, remove `libsomething_0.9-3_amd64.deb`)_
 - Update the package list for each architecture under `dists/<OS-RELEASE>/main` directory.
   ```bash
   $ apt-ftparchive --arch <ARCHITECTURE> packages pool > <PATH-TO>/binary-<ARCHITECTURE>/Packages
