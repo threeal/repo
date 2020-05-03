@@ -1,0 +1,7 @@
+Origin: threeal.github.io/repo
+Label: threeal bionic
+Suite: bionic
+Codename: bionic
+Architectures: amd64 i386
+Components: main
+Description: Threeal's Bionic Debian repository

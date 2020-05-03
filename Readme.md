@@ -49,6 +49,17 @@ It also contains guides on how to build a Debian package, create repository, and
 - The repository consists of 2 main directory, `dists` that contains package lists and `pool` that contains the package files.
   - The `dists` directory should be structured using the following format `dists/<OS-RELEASE>/main/binary-<ARCHITECTURE>/`. _(example: `dists/bionic/main/binary-amd64`)_
   - The `pool` directory should be structured using the following format `pool/main/<PACKAGE>/<PACKAGE-DEB>`. _(example: `pool/main/libsomething/libsomething_1.0-1_amd64.deb`)_
+- Create a `distributions` metadata file under `dists/<OS-RELEASE>`.
+  The metadata file atleast must contains information like the following example:
+  ```
+  Origin: threeal.github.io/repo
+  Label: threeal bionic
+  Suite: bionic
+  Codename: bionic
+  Architectures: amd64 i386
+  Components: main
+  Description: Threeal's Bionic Debian repository
+  ```
 
 ### Making the Repository to be Signed
 
@@ -78,7 +89,8 @@ It also contains guides on how to build a Debian package, create repository, and
 - Update the release files for each os release under `dists/<OS-RELEASE>` directory.
   ```bash
   $ cd dists/<OS-RELEASE>
-  $ apt-ftparchive release . > Release
+  $ (cat distributions; echo "") > Release
+  $ apt-ftparchive release . >> Release
   $ gpg --clearsign -o InRelease Release
   $ gpg -abs -o Release.gpg Release
   ```
