@@ -3,9 +3,9 @@
 This project contains a personal Debian package repository that could be served on GitHub Page.
 It also contains guides on how to build a Debian package, create repository, and use the repository.
 
-# Creating a Debian Package
+## Creating a Debian Package
 
-## Structuring the Package
+### Structuring the Package
 
 - Create a directory using name that follow standard Debian notation for package name.
   usually it is all lowercase with the following format `<PROJECT>_<MAJOR-VER>.<MINOR-VER>-<PKG-REVISION>_<ARCHITECTURE>`. _(example: `libsomething_1.0-1_amd64`)_
@@ -34,7 +34,7 @@ It also contains guides on how to build a Debian package, create repository, and
   Make sure executable files in the package already have an execute permission.
 - After the package already structured, continue to build the package as a Debian package.
 
-## Building the Package
+### Building the Package
 
 - Build the directory as a Debian package:
   ```bash
@@ -42,15 +42,15 @@ It also contains guides on how to build a Debian package, create repository, and
   ```
   > If the `dpkg-deb` has not been installed, install it using `$ sudo apt install dpkg`.
 
-# Creating a Debian Package Repository
+## Creating a Debian Package Repository
 
-## Structuring the Repository
+### Structuring the Repository
 
 - The repository consists of 2 main directory, `dists` that contains package lists and `pool` that contains the package files.
   - The `dists` directory should be structured using the following format `dists/<OS-RELEASE>/main/binary-<ARCHITECTURE>/`. _(example: `dists/bionic/main/binary-amd64`)_
   - The `pool` directory should be structured using the following format `pool/main/<PACKAGE>/<PACKAGE-DEB>`. _(example: `pool/main/libsomething/libsomething_1.0-1_amd64.deb`)_
 
-## Making the Repository to be Signed
+### Making the Repository to be Signed
 
 - Create a new gpg key for this repository.
   ```bash
@@ -63,7 +63,7 @@ It also contains guides on how to build a Debian package, create repository, and
   $ gpg --armor --export <NAME> > <KEYNAME>.asc
   ```
 
-## Adding a New Package to the Repository
+### Adding a New Package to the Repository
 
 - Put all new release of Debian packages inside their corresponding package in `pool` directory. _(example: put `libsomething_1.0-1_amd64.deb` inside `pool/main/libsomething`)_
 - Update the package list for each architecture under `dists/<OS-RELEASE>/main` directory.
@@ -83,15 +83,15 @@ It also contains guides on how to build a Debian package, create repository, and
   $ gpg -abs -o Release.gpg Release
   ```
 
-## Serving the Repository on GitHub Page
+### Serving the Repository on GitHub Page
 
 - Clone this project to your GitHub repository as `repo`.
 - On the repository settings, under the `GitHub Page`, Set the `Source` to be the branch that will be served on the GitHub Page.
 - The repository later could be accessed under `<USER>.github.io/repo`.
 
-# Using The Repository
+## Using The Repository
 
-## Adding the Public Key
+### Adding the Public Key
 
 - Public key is used to sign this repository, so it could be accepted by the Debian packaging system in the client computer.
 - Add the public key of the repository to the local system.
@@ -99,7 +99,7 @@ It also contains guides on how to build a Debian package, create repository, and
   $ curl -s <ADDRESS-TO>/repo/<KEYNAME>.asc | sudo apt-key add -
   ```
 
-## Adding the Repository to the Source List
+### Adding the Repository to the Source List
 
 - Add the repository to the source list.
   ```bash
