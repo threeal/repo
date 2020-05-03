@@ -1,0 +1,25 @@
+Date: Sun, 03 May 2020 08:07:51 +0000
+MD5Sum:
+ 7e7a317dc7be5f4dff39f1d8cb139f98               38 Release
+ b3dc7c7c758958c873b847815909389c             2015 main/binary-amd64/Packages
+ 24a21137647a0ba425934ee00e87a5be              907 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+ 6d1c80f786c2bca16f5aaa52b62d71c1               29 main/binary-i386/Packages.gz
+SHA1:
+ f02a0a8584adea24f939a61e4e519535d62556bd               38 Release
+ e32f05b9ff15adbc7bccd8a6d39c7f5c8f4e5c1a             2015 main/binary-amd64/Packages
+ ef386b2932d9b81ab79d869267e4e02d160a5148              907 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+ 3066263467ac8ca109f7b755ae169ba52d3ffffd               29 main/binary-i386/Packages.gz
+SHA256:
+ 74723bab05da141ce7fa76453c3406605220bfecaf83adaeaa74d3cd310d104e               38 Release
+ f4facada7841fd06326953cae69fbfc70c0162afdf5432633d5397fd745eaca8             2015 main/binary-amd64/Packages
+ 6200bc2deb6d210859fef3ec3c78ce6ab693f57ea8fa4d43563cad4f71d03bb5              907 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+ b13ab8441772dd872f64afa0fa0952d464a10915dffde70145cd71df02c8486b               29 main/binary-i386/Packages.gz
+SHA512:
+ acd07530419401a37dcf1c63c9cb7993df1d95218ecf3f0cff46762d58b4bea722500284722381bc3633a505a4dd5533f1449175a91e28f01d46edc28e5398e9               38 Release
+ 93abdbe82d4d63ec012d63aed5ebf8fb16bddf58d68804e7fe2781644f4f98b564f994aa9fd869b122abac67fe6ebcf4eded29f9c6f35f71203de237f137368f             2015 main/binary-amd64/Packages
+ 5b82014654af4ecab2349c97710f40072238d274ac235d9462d504061b10da3dfabcc8dd1340ef9415b069c999efb5bb023e21b955c229782d3fe27a60b3059c              907 main/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
+ bdb74290b41cf7c9a03a6e9f67a472e6dab38980031137441ebdefd390b1beb72de97b1fe359a555cde5ff000062329d5983924db06e23cf00e47ec4620382a7               29 main/binary-i386/Packages.gz
