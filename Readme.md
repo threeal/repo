@@ -3,6 +3,21 @@
 This project contains a personal Debian package repository that could be served on GitHub Page.
 It also contains guides on how to build a Debian package, create repository, and use the repository.
 
+## Using This Repository
+
+- Add the public key of this repository to the local system.
+  ```bash
+  $ curl -s https://threeal.github.io/repo/threeal.asc | sudo apt-key add -
+  ```
+- Add this repository to the source list.
+  ```bash
+  $ sudo sh -c 'echo "deb [arch=amd64] https://threeal.github.io/repo $(lsb_release -sc) main" > /etc/apt/sources.list.d/threeal.list'
+  ```
+- Update the package list in repositories.
+  ```bash
+  $ sudo apt update
+  ```
+
 ## Creating a Debian Package
 
 ### Structuring the Package
@@ -80,6 +95,7 @@ It also contains guides on how to build a Debian package, create repository, and
 
 - Put all new release of Debian packages inside their corresponding package in `pool` directory. _(example: put `libsomething_1.0-1_amd64.deb` inside `pool/main/libsomething`)_
 - Remove older version of the Debian package release, if there is any. _(example: with `libsomething_1.0-1_amd64.deb`, remove `libsomething_0.9-3_amd64.deb`)_
+  > **Note**: for alternative, you can run the `update.sh` script to apply the new package to the repository after put the Debian package file.
 - Update the package list for each architecture under `dists/<OS-RELEASE>/main` directory.
   ```bash
   $ apt-ftparchive --arch <ARCHITECTURE> packages pool > <PATH-TO>/binary-<ARCHITECTURE>/Packages
