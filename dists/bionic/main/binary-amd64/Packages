@@ -44,18 +44,18 @@ Description: Embedded Web Server / Embedded Networking Library
 
 Package: libsimpleweb-dev
 Architecture: amd64
-Version: 1.0-2
+Version: 1.1-1
 Priority: optional
 Section: devel
 Maintainer: Alfi Maulana <alfi.maulana.f@gmail.com>
 Installed-Size: 262
 Depends: libssl-dev (>= 1.1), libboost-filesystem-dev (>= 1.65), libboost-thread-dev (>= 1.65)
-Filename: pool/main/libsimpleweb-dev/libsimpleweb-dev_1.0-2_amd64.deb
-Size: 43128
-MD5sum: 8029e6c91be1a513b9b817f781d12cb0
-SHA1: f9df94d46df0bbf013754858b4eef4d142df7a9d
-SHA256: 7faf941b1911587328426926cd7089c0c7d526fb69b912e499138dad3daa813b
-SHA512: cad5c06d05bd853e7792833da70cfe1d3538acadbe3f4f64a1ef3d61edeee101bbe18df2b4326a54b541191b03dac6d983f8ae3ea5d4791a6cc0c86f212bcd71
+Filename: pool/main/libsimpleweb-dev/libsimpleweb-dev_1.1-1_amd64.deb
+Size: 41604
+MD5sum: afedd5e8377f8429eea479b5bf20e8ac
+SHA1: 546ce98a56a896644e10ca9dcd9f85ccd30cf09c
+SHA256: 8c2fdb8698c78fd0a2b374ce71f6f078f7b5757324510b4f68e72127423a67ad
+SHA512: 9c0c7021a3257e3ebdbebbb4e9d9883535654f1c4ff61e17c6525bd83a81ab37d7abb127c5afd23a7dab89ad6c10124d47cb9c4d407b8b4c96863be7746a5a5a
 Homepage: https://github.com/threeal/Simple-Web
 Description: A simple HTTP, HTTPS, WS and WSS server and client library
  A very simple, fast, multithreaded, platform independent HTTP, HTTPS,
