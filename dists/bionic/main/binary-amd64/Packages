@@ -42,6 +42,30 @@ Description: Embedded Web Server / Embedded Networking Library
  commercial products - it even runs on the International Space station!
  Mongoose makes embedded network programming fast, robust, and easy.
 
+Package: libopencv4-dev
+Architecture: amd64
+Version: 4.3.0-1
+Priority: optional
+Section: devel
+Maintainer: Alfi Maulana <alfi.maulana.f@gmail.com>
+Installed-Size: 227350
+Depends: pkg-config, libc6 (>= 2.27)
+Conflicts: libopencv-dev
+Replaces: libopencv-dev
+Filename: pool/main/libopencv4-dev/libopencv4-dev_4.3.0-1_amd64.deb
+Size: 32236456
+MD5sum: 43bf9188e1930b8ebf2f81450aafe6a8
+SHA1: 83f9ef3ca2aaae1485c4c0987ca227c8a8816ca7
+SHA256: a39beffeac5341e45e047207195e3b75d960296f92bd38b5399d884f50d897e5
+SHA512: 6129327ea2bc4865f1a5446215963555debca8f81c426d7082302623bd8b5c8fd5f6bad5b70aa60f2b996ab01665c0c6cfc2766a088ccf01f5074b9d04469f9d
+Homepage: https://github.com/opencv/opencv
+Description: development files for OpenCV 4
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. OpenCV provides low level portable
+ data types and operators, and a set of high level functionalities for vide
+ acquisition, image processing and analysis, structural analysis and object
+ tracking, object recognition, camera calibration and 3D reconstruction.
+
 Package: libsimpleweb-dev
 Architecture: amd64
 Version: 1.1-1
