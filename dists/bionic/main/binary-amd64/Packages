@@ -44,20 +44,20 @@ Description: Embedded Web Server / Embedded Networking Library
 
 Package: libopencv4-dev
 Architecture: amd64
-Version: 4.3.0-1
+Version: 4.3.0-2
 Priority: optional
 Section: devel
 Maintainer: Alfi Maulana <alfi.maulana.f@gmail.com>
-Installed-Size: 227350
-Depends: pkg-config, libc6 (>= 2.27)
+Installed-Size: 224537
+Depends: pkg-config, libc6 (>= 2.27), libjpeg-dev, libtiff-dev
 Conflicts: libopencv-dev
 Replaces: libopencv-dev
-Filename: pool/main/libopencv4-dev/libopencv4-dev_4.3.0-1_amd64.deb
-Size: 32236456
-MD5sum: 43bf9188e1930b8ebf2f81450aafe6a8
-SHA1: 83f9ef3ca2aaae1485c4c0987ca227c8a8816ca7
-SHA256: a39beffeac5341e45e047207195e3b75d960296f92bd38b5399d884f50d897e5
-SHA512: 6129327ea2bc4865f1a5446215963555debca8f81c426d7082302623bd8b5c8fd5f6bad5b70aa60f2b996ab01665c0c6cfc2766a088ccf01f5074b9d04469f9d
+Filename: pool/main/libopencv4-dev/libopencv4-dev_4.3.0-2_amd64.deb
+Size: 31885576
+MD5sum: 9132c8f092d57b20812300a307350b7e
+SHA1: ce65834e5f53ce6db65d2444b78e26d994300ce5
+SHA256: 7c28fd203cc6652f8e11d6f6af70d3c4059328ed00b6084bddb84a109ec85a82
+SHA512: dfdb991657dbe55025aced1960c9cb61078eddbffd703b538507a281e5db58b8b1b52fb7fdb5ab8b919c36174e7ab755d07d7e775dc5cdaf96571ce708ac2b95
 Homepage: https://github.com/opencv/opencv
 Description: development files for OpenCV 4
  The Open Computer Vision Library is a collection of algorithms and sample
