@@ -5,28 +5,28 @@ Codename: bionic
 Architectures: amd64 i386
 Components: main
 Description: Threeal's Bionic Debian repository
-Date: Sun, 10 May 2020 18:19:33 +0000
+Date: Tue, 30 Jun 2020 13:03:51 +0000
 MD5Sum:
- 0bff33f070322db351cd1e41ab9e92f7              213 Release
- 9764cb3300b80c4f5e32670185e06366             4241 main/binary-amd64/Packages
- 8bdc76ea1e85f6b49e7a24db016b19b6             1889 main/binary-amd64/Packages.gz
+ 71f82e84ec8ae80fcd6b25d898002fca              213 Release
+ f151f5c4340564b444e6a49a414905d8             4400 main/binary-amd64/Packages
+ 355049a683aa850a7a83cbe7ed5cf7f8             1962 main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
- 672da94c14fa286eb1b00da7b38fd717               29 main/binary-i386/Packages.gz
+ 3d808f551c44e851e4b315b1045570c4               29 main/binary-i386/Packages.gz
 SHA1:
- 41ab1d945983e1a352081df02bb830b2f54d2833              213 Release
- 6f9b4c72373b2070baae08f341b933dbced7e500             4241 main/binary-amd64/Packages
- 572f1c2726f320a658f9f5381fc5d899bca84c73             1889 main/binary-amd64/Packages.gz
+ 12fb1f6987a467cf63b449f48dd29ae39ea1be97              213 Release
+ 57b36571545356d37d4566144c9faf14f1604279             4400 main/binary-amd64/Packages
+ 26cc78e60260c3cd87c00d336ed987e2099ae770             1962 main/binary-amd64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
- f198490a49333ee3a3b936d856cfa6ff0aae9037               29 main/binary-i386/Packages.gz
+ 63b7f4ab627d300636379a9b62f66fe6d6091ac9               29 main/binary-i386/Packages.gz
 SHA256:
- c87b1842fea45b88316c1fab7def3cf83d003f559f99f62092e6544dc5929c12              213 Release
- 9771ab28fb157805b2db9df01687296f10106c2d2dac25ac6c48125d7b7fdbf2             4241 main/binary-amd64/Packages
- 9e02dcba83b779b36c3f54dd022fe89883dd17552bca7fc8d87ddfa4cc8715a2             1889 main/binary-amd64/Packages.gz
+ 94ab1cbde93147c6cacfd83660a90c211497c5da5bc1202b2313358d65be34d2              213 Release
+ 61f764b506f117a6da1d7f5dc251744a13818c382f396c9d89cfcd189024a05f             4400 main/binary-amd64/Packages
+ 2f6f1c7051707c34c7cb4fea253ce78a99e216117a9f0b1a7d8e5591797ea69b             1962 main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
- 3d524b5d5c7b34662400e0eb4ff4a615cdf17c83a451460bd7793e4afb816bbf               29 main/binary-i386/Packages.gz
+ 43b3d6175ae143a9831905327e01b57bc65258eb7021749754074b171ea5e754               29 main/binary-i386/Packages.gz
 SHA512:
- 6ebd1e8e9f56722ead0fcdaad602f7ec6dacade8fb6cf7cde14c7d9d92310a64bed36c9b0c46c9f75917764d1cc668858f9e5c23034207e97476f2b322f428a0              213 Release
- 5b201947466e3e7b8a6615ae0aae03020ad3ed1efb383f7118be5650e77369d096bcc7b2141a7c545675c70b2fca101604b4e429af7459ab54835b32eb141017             4241 main/binary-amd64/Packages
- 0ff15743d10734316622175c147c411996823101977e8a6250f40cd7995c62476fd6439d287577a54956f4a72f68ea97fdff7b4386080e9003a56d37cf517cfb             1889 main/binary-amd64/Packages.gz
+ 9028983e091eb89fbaef1973471131543ceca2e64b4a52b7bb26a76df00aa0e6470eed917a8e3b08bc4f0077398cca27401f791ccb9e8e4d7e8d170cf7d69dae              213 Release
+ 1e272165badfd8920595104a4b112fe943f2b08d150bbc3be30e82d43f0118e66e2755d4c8b086b7552a487f390e53ae35b43da36a6c490e545527d3c25337f8             4400 main/binary-amd64/Packages
+ dd5c239a9cbcf9af9230c8027bf4f8148a5445100fbee11d074420b7f249d640aea1a420d8d250b8e3bf16441a1ab7879bd1fdb62c1fd6a5656872c2beb20f4f             1962 main/binary-amd64/Packages.gz
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
- 9288ec8ddc7b0369004927a31cbfabd730dba5570aca15864b6c9ec83cb4b7808d108a75f53093dad5ffdedc33e5459835a3302b707df66c81d0ebf088ee3cd3               29 main/binary-i386/Packages.gz
+ 91945af20562a9df5b8a159873c01e0cd795f5795066ad55867a343f5f63d8a017ad7377aa25eae610fee520e034d37d6169a3b2fb205850ba6d6bd4141e93b7               29 main/binary-i386/Packages.gz

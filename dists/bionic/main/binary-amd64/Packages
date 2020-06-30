@@ -44,20 +44,20 @@ Description: Embedded Web Server / Embedded Networking Library
 
 Package: libopencv4-dev
 Architecture: amd64
-Version: 4.3.0-2
+Version: 4.3.0-3
 Priority: optional
 Section: devel
 Maintainer: Alfi Maulana <alfi.maulana.f@gmail.com>
-Installed-Size: 224537
-Depends: pkg-config, libc6 (>= 2.27), libjpeg-dev, libtiff-dev
+Installed-Size: 224134
+Depends: pkg-config, libc6 (>= 2.27), libjpeg-dev, libtiff-dev, libopenjp2-7-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libavresample-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libdc1394-22-dev
 Conflicts: libopencv-dev
 Replaces: libopencv-dev
-Filename: pool/main/libopencv4-dev/libopencv4-dev_4.3.0-2_amd64.deb
-Size: 31885576
-MD5sum: 9132c8f092d57b20812300a307350b7e
-SHA1: ce65834e5f53ce6db65d2444b78e26d994300ce5
-SHA256: 7c28fd203cc6652f8e11d6f6af70d3c4059328ed00b6084bddb84a109ec85a82
-SHA512: dfdb991657dbe55025aced1960c9cb61078eddbffd703b538507a281e5db58b8b1b52fb7fdb5ab8b919c36174e7ab755d07d7e775dc5cdaf96571ce708ac2b95
+Filename: pool/main/libopencv4-dev/libopencv4-dev_4.3.0-3_amd64.deb
+Size: 31833986
+MD5sum: ca913c3a2c31bad774b19d916fead4bb
+SHA1: b0f6fc5cfc0d28eec5be0f4da01ecf736ecb1091
+SHA256: 4b6177dc4c0949de4b0c124e8603bbeb90c8ada18d4ff4eae96888709b356fbb
+SHA512: 19904a53bd9c2b84330a0b1fa38eab435aeb894bcc15df9f0162b9b31c0668a863b763493830053d3b6a4b0deb7a81f6dafe712e8f96131ea89cd0bc1f08bab6
 Homepage: https://github.com/opencv/opencv
 Description: development files for OpenCV 4
  The Open Computer Vision Library is a collection of algorithms and sample
